@@ -2,6 +2,12 @@
       misc styles, nothing to do with CSS variables
     */
 
+    :root {
+        --base: #ff3eff;
+        --spacing: 1rem;
+        --blur: 1rem;
+    }
+
     body {
       text-align: center;
       background: #193549;
