@@ -48,3 +48,12 @@ body {
     transition: all .05s;
     transition-timing-function: cubic-bezier(0, 3.27, 0.24, 1.01); /*"snap-back" transition*/
 }
+
+.hour-hand {
+    width: 30%;
+    left: 19.5%;
+}
+
+.second-hand {
+    height: 4px;
+}
