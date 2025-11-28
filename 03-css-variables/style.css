@@ -8,6 +8,12 @@
       --baseColor: #ff3eff;
     }
 
+    /* 'accent-color' only have Global 41.08% on caniuse.com, 
+    so not recommended in a real project */
+    input[type='range']{ 
+      accent-color: var(--baseColor); 
+    }
+
     img {
       padding: var(--spacing);
       background-color: var(--baseColor);
