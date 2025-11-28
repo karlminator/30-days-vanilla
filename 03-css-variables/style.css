@@ -3,9 +3,19 @@
     */
 
     :root {
-        --base: #ff3eff;
-        --spacing: 1rem;
-        --blur: 1rem;
+      --spacing: 1rem;
+      --blur: 1rem;
+      --baseColor: #ff3eff;
+    }
+
+    img {
+      padding: var(--spacing);
+      background-color: var(--baseColor);
+      filter: blur(var()--blur);
+    }
+
+    .hl-color {
+      color: var(--baseColor);
     }
 
     body {
