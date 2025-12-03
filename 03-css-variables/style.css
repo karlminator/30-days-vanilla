@@ -1,10 +1,7 @@
-    /*
-      misc styles, nothing to do with CSS variables
-    */
 
     :root {
       --spacing: 1rem;
-      --blur: 1rem;
+      --blur: 0rem;
       --baseColor: #ff3eff;
     }
 
@@ -16,8 +13,8 @@
 
     img {
       padding: var(--spacing);
-      background-color: var(--baseColor);
-      filter: blur(var()--blur);
+      background: var(--baseColor);
+      filter: blur(var(--blur));
     }
 
     .hl-color {
